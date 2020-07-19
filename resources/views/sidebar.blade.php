@@ -25,7 +25,7 @@
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-user-circle"></i>
+              <i class="nav-icon fas fa-users"></i>
               <p>
                 MASTER USER
               </p>
@@ -34,7 +34,7 @@
 
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-user-circle"></i>
+              <i class="nav-icon fas fa-clipboard-list"></i>
               <p>
                 TENDER
               </p>
@@ -44,53 +44,44 @@
 
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-user-circle"></i>
+              <i class="nav-icon fas fa-chart-pie"></i>
               <p>
                 KELOLA BOBOT
               </p>
             </a>
-          </li
+          </li>
 
 
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-user-circle"></i>
+              <i class="nav-icon fas fa-cart-arrow-down"></i>
               <p>
                 MASTER SUPPLIER
               </p>
             </a>
-          </li
+          </li>
 
 
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-user-circle"></i>
+              <i class="nav-icon fas fa-poll-h"></i>
               <p>
                 QUOTATION
               </p>
             </a>
-          </li
+          </li>
 
 
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-user-circle"></i>
+              <i class="nav-icon fas fa-chart-line"></i>
               <p>
                 PERANGKINGAN
               </p>
             </a>
-          </li
-
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-                Simple Link
-                <span class="right badge badge-danger">New</span>
-              </p>
-            </a>
           </li>
+
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
