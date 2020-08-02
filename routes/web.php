@@ -24,6 +24,9 @@ Route::get('/users', 'UserController@user');
 Route::get('/adduser', 'UserController@add_user');
 Route::post('/createuser', 'UserController@create');
 Route::get('/user/{id}/delete', 'UserController@delete');
+// Tender
+Route::get('/tender', 'TenderController@tender');
+
 
 
 Auth::routes();

@@ -40,7 +40,7 @@
           </li>
 
           <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link active">
+            <a href="/tender" class="nav-link active">
               <i class="nav-icon fas fa-clipboard-list"></i>
               <p>
                 TENDER
