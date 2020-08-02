@@ -24,7 +24,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link active">
+            <a href="/user" class="nav-link active">
               <i class="nav-icon fas fa-users"></i>
               <p>
                 MASTER USER
@@ -66,7 +66,7 @@
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-poll-h"></i>
               <p>
-                QUOTATION
+                PENAWARAN HARGA
               </p>
             </a>
           </li>
