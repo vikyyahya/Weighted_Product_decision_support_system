@@ -28,7 +28,7 @@
     <i class="fas fa-print"></i>
 </a>
 
-<a href="/" class="btn btn-primary">
+<a href="/adduser" class="btn btn-primary">
     <i class="fa fa-plus nav-icon"></i>
 </a>
 
@@ -42,12 +42,17 @@
     </div>
 
     <div class="card-body">
-        <table class="table table-striped table-responsive table table-bordered" id="myTable">
+        <table class="table table-striped table-bordered" id="myTable">
             <thead >
                 <tr>
                     <th class="text-center">No</th>
                     <th class="text-center">Nama</th>
                     <th class="text-center">Email</th>
+                    <th class="text-center">Level</th>
+                    <th class="text-center">Nama Perusahaan</th>
+                    <th class="text-center">Produk</th>
+                    <th class="text-center">Alamat Perusahaan</th>
+                    <th class="text-center">No Telepon</th>
                     <th class="text-center" width="8%">Action</th>
                 </tr>
             </thead>
@@ -57,21 +62,23 @@
                     <td>{{$loop->iteration}}</td>
                     <td>{{$s->name}}</td>
                     <td>{{$s->email}}</td>                 
+                    <td>{{$s->level}}</td>                 
+                    <td>{{$s->nama_perusahaan}}</td>                 
+                    <td>{{$s->produk}}</td> 
+                    <td>{{$s->alamat_perusahaan}}</td>                 
+                    <td>{{$s->no_telp}}</td>                 
                     <td>
                         <div class="btn-group">
 
                             <!-- URL::to('/admin/category/detail.id='.$cate-id -->
-                            <a href="#" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="bottom"
-                                title="Info">
-                                <i class="fa fa-info-circle nav-icon"></i>
-                            </a>
+                           
 
                             <a href="#" class="btn btn-warning  btn-sm" data-toggle="tootip"
                                 data-placement="bottom" title="Edit">
                                 <i class="fa fa-edit nav-icon"></i>
                             </a>
 
-                            <a onClick="return confirm('Yakin ingin menghapus data?')" href="#"
+                            <a onClick="return confirm('Yakin ingin menghapus data?')" href="/user/{{$s->id}}/delete"
                                 class="btn btn btn-danger btn-sm">
                                 <i class="fa fa-trash nav-icon"></i>
                             </a>
